@@ -1,5 +1,6 @@
 class Solution {
 public:
+//unsorted half will have min number
     int findMin(vector<int>& nums) {
         int start=0;
          int end=nums.size()-1;
