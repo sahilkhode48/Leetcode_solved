@@ -10,6 +10,7 @@ public:
         int ans;
         while(start<=end){
             int mid=(start+end)/2;
+            //start and end edge case precoded
             if(nums[mid]!=nums[mid+1]&&nums[mid]!=nums[mid-1])return nums[mid];
             if(nums[nums.size()-1]!=nums[nums.size()-2])return nums[nums.size()-1];
             //if odd mid and left is same || if even mid and right is
